@@ -8,70 +8,33 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      p {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-          sans-serif, Arial, Helvetica, sans-serif;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 10px;
-        row-gap: 40px;
-      }
-      .tn1 {
-        width: 100%;
-      }
-      .searchbar {
-        font-size: 20px;
-        display: block;
-      }
-      .v-title {
-        margin-top: 0;
-        font: size 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-
-      .v-author {
-        color: rgb(96, 96, 96);
-        font-size: 12px;
-        margin-bottom: 4px;
-      }
-      .v-stats {
-        color: rgb(96, 96, 96);
-        font-size: 12px;
-      }
-      .v-preview {
-        color: black;
-      }
-      .v-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-      .pfp {
-        color: black;
-      }
-      .v-info {
-        margin-left: 8px;
-      }
-
-      .cimg {
-        width: 50px;
-        border-radius: 50%;
-      }
-      .tmp-row {
-        margin-bottom: 12px;
-      }
-    </style>
+    <link rel="stylesheet" href="/project/Style/header.css" />
+    <link rel="stylesheet" href="/project/Style/video.css" />
+    <link rel="stylesheet" href="/project/Style/general.css" />
+      <link rel="stylesheet" href="/project/Style/sidebar.css" />
   </head>
   <body>
-    <input class="searchbar" type="text" placeholder="Search" />
+    <div class="header">
+      <div class="left">
+        <img class="ham" src="/project/headerimgs/himg1.svg" alt="" />
+        <img class="you" src="/project/headerimgs/himg2.svg" alt="" />
+      </div>
+      <div class="middle">
+        <input class="searchbar" type="text" placeholder="Search" />
+        <button class="sea"><img class="sicon" src="/project/headerimgs/himg3.svg" /></button>
+        <button class="voice">
+          <img class="vicon" src="/project/headerimgs/himg4.svg" />
+        </button>
+      </div>
+      <div class="right">
+<img class="uicon" src="/project/headerimgs/himg5.svg" alt="" />
+<img class="appicon" src="/project/headerimgs/himg6.svg" alt="" />
+<img class="notiicon" src="/project/headerimgs/himg7.svg" alt="" />
+<img class="usericon" src="/project/headerimgs/himg8.jpeg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar">sidebar</div>
 
     <div class="video-grid">
       <div class="v-preview">
